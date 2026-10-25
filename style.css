@@ -1,0 +1,110 @@
+.background{
+    background-color:#1B1B1B;
+    color:beige;
+    text-align: center;
+}
+#head{
+        height: 50px;
+}
+.headbg{
+    background-image:-moz-element("images.jpg");
+}
+#heading{
+    color:#1B1B1B;
+    font-family:Salina;
+    padding: 0px 150px;
+    letter-spacing: 2px;
+    font-size: 40px;
+}
+
+.photo{
+    background-size: cover;
+    height: 700px;
+    background-image: url("image1.jpg");
+    background-position: center;
+}
+.photo1{
+    background-size: cover;
+    height: 400px;
+    background-image: url("image4.jpg");
+    background-position: center;
+}
+.button{
+    background-color:#1B1B1B;
+    color: bisque;
+}
+.nobutton{
+    padding: 0px 150px;
+    color: #1B1B1B;
+}
+.link{
+    color:#1B1B1B;
+    letter-spacing: 2px;
+}
+#quote{
+    font-size: 70px;
+    color:beige;
+    padding: 0px 150px;
+    font-family: Salina;
+}
+#quote2{
+    font-size: 60px;
+    color: #1B1B1B;
+    padding: 0px 150px;
+    font-family: Salina;
+}
+#quote3{
+    font-size: 70px;
+    color:rgb(192, 192, 121); 
+    font-family: Salina;
+}
+#quote4{
+    font-size: 60px;
+    color:rgb(192, 192, 121); 
+    font-family: Salina;
+}
+.para{
+    padding: 0px 150px;
+    color: bisque;
+    font-family: Salina;
+}
+.para2{
+    padding: 0px 150px;
+    color:dimgrey ;
+    font-family: Salina;
+}
+.bdpara{
+    padding: 0px 150px;
+    color: #1B1B1B;
+    font-family: Salina;
+}
+.imgpro{
+    
+    height: 450px;
+    width: 400px;
+}
+.divbg{
+    background-color:rgb(255, 255, 232);
+}
+.divbg2{
+    background-color:#1B1B1B;
+}
+
+.divalign{
+    padding: 100px ;
+    text-align: center;
+}
+.divalign2{
+    padding: 100px ;
+    text-align: center;
+    background-color:#1B1B1B;
+}
+.form{
+    padding: 100px ;
+    
+    color:rgb(192, 192, 121); 
+    background-color:#1B1B1B;
+    border-radius: 50px;
+    margin-left: 150px;
+    margin-right: 600px;
+}
