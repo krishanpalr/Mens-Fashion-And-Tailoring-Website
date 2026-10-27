@@ -50,11 +50,16 @@
     </p>
     <form>
         <fieldset class="form">
-            FIRST NAME: <input type="text" placeholder="Your First Name" required></input><br>
-            LAST NAME: <input type="text" placeholder="Your Last Name" required></input> <br>
-            EMAIL ADDRESS:<input type="email" placeholder="you@example.com" required></input><br>
-            TELEPHONE:<input type="number" placeholder="+91" required></input><br>
-            <label>HOW CAN WE HELP YOU:</label>
+            <table border="0" height="500" width="500">
+            <tbody>   
+            <tr>
+                <td>FIRST NAME: <input type="text" placeholder="Your First Name" required></input>
+                <td>LAST NAME: <input type="text" placeholder="Your Last Name" required></input> 
+            <tr>
+                <td>EMAIL ADDRESS:<input type="email" placeholder="you@example.com" required></input>
+                <td>TELEPHONE:<input type="number" placeholder="+91" required></input>
+            <tr>
+                <td><label>HOW CAN WE HELP YOU:</label>
             <select >
                     <option>Select an inquiry
                     <option>Book a tailoring appointment
@@ -64,8 +69,8 @@
                     <option>Alterations
                     <option>Product or pricing question
                     <option>Other inquiry
-            </select><br>
-            <label>SERVICE PREFERENCE:</label>
+            </select>
+                <td><label>SERVICE PREFERENCE:</label>
             <select >
                     <option>Choose a service
                     <option>Ready-to-wear
@@ -74,11 +79,15 @@
                     <option>Made-to-measure garments
                     <option>Alterations
                     <option>Need advice
-            </select><br>
-            TELL US MORE:<br>
+            </select>
+            <tr>
+            <td colspan="2">TELL US MORE:<br>
             <textarea cols="50" rows="5"></textarea><br>
-            <input type="submit" name="submit"></input>
+            <tr >
+            <td colspan="2" align="center"><input type="submit" name="submit"></input>
             <input type="reset" name="reset"></input>
+            </tbody>
+            </table>
         </fieldset>
 
     </form>
